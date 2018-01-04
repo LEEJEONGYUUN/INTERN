@@ -1,21 +1,12 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react'
+import './App.css'
 
 class App extends Component {
-  render() {
-    return (
-      <div className="app">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          이정윤 <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
-    );
+  render () {
+    return <div className='App'>
+      <h2>달리는 기차 위에 중립은 없다</h2>
+    </div>
   }
 }
 
-export default App;
+export default App
